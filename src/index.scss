@@ -1,0 +1,188 @@
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+$mainBlue:hsl(238, 40%, 52%);
+$mainLightBlue:hsl(223, 19%, 93%);
+$buttonColor:#AAADC5;
+$contentColor:#7C8492;
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $mainLightBlue;
+}
+
+
+@media screen  and (max-width: 480px) {
+  .mainContainer {
+    width: 100% !important;
+    padding: 14px !important;
+  }
+  .mainComment {
+    width: 100% !important;
+    padding: 0 !important;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .addComment {
+    width: 100% !important;
+    padding: 0 !important;
+    display: flex;
+  }
+  .numberContainer {
+    display: flex;
+    align-items: flex-start !important;
+    padding-bottom: 15px;
+  }
+  .numberAdjust {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: flex-start !important;
+    width: 30% !important;
+  }
+  .commentReply {
+    display: flex;
+    flex-direction: column;
+  }
+  .commentDate {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .userInteract {
+    display: flex;
+    flex-direction: column;
+  }
+  .userImage{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: end !important;
+    align-items: flex-start !important;
+    margin-bottom: 20px;
+  }
+  .sendComment {
+    margin-top: 20px;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: end !important;
+    align-items: flex-end !important;
+    padding-bottom: 20px;
+  }
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .mainContainer {
+    width: 100% !important;
+    padding: 14px !important;
+  }
+  .mainComment {
+    width: 100% !important;
+    padding: 0 !important;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .addComment {
+    width: 100% !important;
+    padding: 0 !important;
+    display: flex;
+  }
+  .numberAdjust {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: end !important;
+    align-items: flex-start !important;
+  }
+  .commentReply {
+    display: flex;
+    flex-direction: column;
+  }
+  .commentDate {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .userInteract {
+    display: flex;
+    flex-direction: column;
+  }
+  .userImage{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: end !important;
+    align-items: flex-start !important;
+    margin-bottom: 20px;
+  }
+  .sendComment {
+    margin-top: 20px;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: end !important;
+    align-items: flex-end !important;
+    padding-bottom: 20px;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .mainContainer {
+    width: 100% !important;
+    padding: 14px !important;
+  }
+  .mainComment {
+    width: 100% !important;
+    padding: 0 !important;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .addComment {
+    width: 100% !important;
+    padding: 0 !important;
+    display: flex;
+  }
+  .numberAdjust {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: end !important;
+    align-items: flex-start !important;
+  }
+  .commentReply {
+    display: flex;
+    flex-direction: column;
+  }
+  .commentDate {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .userInteract {
+    display: flex;
+    flex-direction: column;
+  }
+  .userImage{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: end !important;
+    align-items: flex-start !important;
+    margin-bottom: 20px;
+  }
+  .sendComment {
+    margin-top: 20px;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: end !important;
+    align-items: flex-end !important;
+    padding-bottom: 20px;
+  }
+}
+
+
+
+

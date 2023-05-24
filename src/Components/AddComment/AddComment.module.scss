@@ -1,0 +1,10 @@
+@import '../../index.scss';
+
+.mainColor {
+    background-color: $mainBlue;
+    color: white;
+    &:hover {
+        background-color: $mainBlue;
+        color: white;
+    }
+}

@@ -1,0 +1,14 @@
+@import '../../index.scss';
+
+.mainColor {
+    color: $mainBlue;
+}
+
+.mainLightBlue {
+    background-color: $mainLightBlue;
+    color: $buttonColor;
+}
+
+.textColor {
+    color: $contentColor;
+}
